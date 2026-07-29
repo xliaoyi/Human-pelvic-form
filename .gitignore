@@ -1,0 +1,58 @@
+# ---- Data & large files (not distributed with this repo) ----
+# UK Biobank data is access-controlled and must be obtained separately.
+*.csv
+*.tsv
+*.txt
+*.dcm
+*.nii
+*.nii.gz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated figures / outputs
+out_fig/
+results/
+outputs/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tif
+*.tiff
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.python-version
+
+# ---- R ----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
